@@ -1,0 +1,24 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bowles et~al.(2024)Bowles, Reed, Ringgenberg, and Thornock]{bowles2024anomaly}
+B.~Bowles, A.~V. Reed, M.~C. Ringgenberg, and J.~R. Thornock.
+\newblock Anomaly time.
+\newblock \emph{The Journal of Finance}, 79\penalty0 (5):\penalty0 3543--3579, 2024.
+
+\bibitem[de~Boulogne(17th century)]{valentin_boulogne_david}
+V.~de~Boulogne.
+\newblock David with the head of goliath and two soldiers.
+\newblock \url{https://commons.wikimedia.org/wiki/File:Valentin_de_Boulogne_-_David_with_the_Head_of_Goliath_and_Two_Soldiers_-_WGA24236.jpg}, 17th century.
+\newblock Accessed: [Insert Date Here].
+
+\bibitem[Fama and French(1992)]{fama1992cross}
+E.~F. Fama and K.~R. French.
+\newblock The cross-section of expected stock returns.
+\newblock \emph{the Journal of Finance}, 47\penalty0 (2):\penalty0 427--465, 1992.
+
+\end{thebibliography}

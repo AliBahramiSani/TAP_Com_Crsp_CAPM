@@ -1,0 +1,111 @@
+\documentclass[a4paper,10pt,american]{article}
+\usepackage[top=1in, bottom=1in, left=0.75in, right=0.75in]{geometry}
+\usepackage{amsmath,amssymb,amsfonts,mathrsfs,accents} %important math packages
+\usepackage{bbm}
+\usepackage{dsfont}
+\usepackage{tikz}
+\usepackage{enumerate} % package for making different lists
+\usepackage[T1]{fontenc} % Encoding of fonts
+\usepackage{lmodern} % Latin modern font - needed for fontenc
+\usepackage[utf8]{inputenc} % Encoding of input text
+\usepackage[kerning]{microtype} % Better looking text
+\usepackage[babel]{csquotes} % Better looking quotes
+\usepackage{booktabs} % Better looking tables
+\usepackage{babel} % Language control, for hyphenation etc
+\usepackage{amsthm} % Package for theorem and definition environments
+\usepackage{hyperref} % URLs 
+\usepackage{comment}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage[table]{xcolor}
+\usetikzlibrary{trees}
+\usepackage{istgame}
+\usepackage{mathpazo} % Other fonts: lmodern & charter & mathptmx
+% \usepackage{minted}
+% \usemintedstyle{colorful}  % Choose a highlighting style
+\usepackage{listings}
+% Package for drawing in Latex. Depending on your installation you might need compat=1.12 or 1.11 uncommented.  
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{pgfplots}
+\usepackage{fancyhdr}
+\usepackage{footmisc}
+%\pgfplotsset{compat=1.12}
+\pgfplotsset{compat=1.11}
+
+% For better figure placement in documents. Use [H] instead of the usual [htbp]. Inserted at the same place as in the code, as you normally want it to. 
+\usepackage{float}
+
+% Row break instead of indent for new paragraph. 
+\usepgfplotslibrary{fillbetween}
+\setlength{\parskip}{10pt plus 1pt minus 1pt}
+\setlength{\parindent}{0in}
+
+% Define Stata language style
+\lstdefinelanguage{Stata}{
+    morekeywords={regress, gen, summarize, predict, display, if, forval, local, matrix},
+    sensitive=true,
+    morecomment=[l]{*},
+    morestring=[b]",
+}
+% Set listings style
+\lstset{
+    language=Stata,
+    basicstyle=\ttfamily\small,    % Code font
+    keywordstyle=\color{blue},    % Keywords in blue
+    commentstyle=\color{gray},    % Comments in gray
+    stringstyle=\color{red},      % Strings in red
+    breaklines=true,              % Allow line breaking
+    numbers=left,                 % Line numbers on the left
+    numberstyle=\tiny\color{gray},
+    frame=single,                 % Frame around the code
+    captionpos=b,                 % Caption position
+}
+% Examples of personal commands to simplify writing stuff you use often. 
+\newcommand{\reals}{\mathbb{R}} 
+\newcommand{\rtwo}{\mathbb{R}^2}
+\newcommand{\ints}{\mathbb{Z}}
+\newcommand{\nats}{\mathbb{N}}
+\newcommand{\matset}{\mathcal{M}}
+\newcommand{\zerovec}{\{\mathbf{0}\}}
+\renewcommand{\footnoterule}{%
+    \kern 210pt
+    \hrule width \textwidth height 0.4pt
+    \kern 2.6pt
+}
+\definecolor{navy}{RGB}{0, 0, 128}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=navy,
+    filecolor=navy,
+    urlcolor=navy,
+    citecolor=navy,
+}
+\title{ASSET PRICING THEORY --- Problem Set 3}
+\author{Ali Bahramisani\thanks{Stockholm School
+of Economics, Department of Finance, Email: 
+\href{mailto:ali.bahramisani@hhs.se}{ali.bahramisani@hhs.se}, 
+Website: \href{https://alibahramisani.github.io}{alibahramisani.github.io}},
+Alfred Bornefalk\thanks{Stockholm School
+of Economics, Department of Finance, Email: 
+\href{mailto:alfred.bornefalk@hhs.se}{alfred.bornefalk@hhs.se}}}
+
+\date{Spring 2025}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{A. Bahramisani, A. Bornefalk}
+\fancyhead[C]{Asset Pricing Theory- Spring 2025}
+\fancyhead[R]{Problem Set 3}
+\fancyfoot[C]{\thepage}
+
+
+\begin{document}
+    \maketitle
+    \section*{Discrepancy with Fama French}
+    We see from Figure [X1] that the time series of our return differences and French's, while being arguably similar, still are far away from being perfect matches. In particular, from Figure [X2], we see that our portfolios have consistently higher cumulative returns than French's. One major reason as to why our results differ is that Fama and French exclude financial firms from their portfolio constructions, which we have not. Indeed, if financial firms then performed during our sample period, this would explain part of the difference. Furthermore, we see that in the times of crises, i.e., the IT bubble, the Great recession, and during the start of the Covid-19 pandemic, some of our portfolios have far greater returns than their French counterparts. Ceteris paribus, this could then also explain the differences in cumulative returns. Again, a driving mechanism behind this particular difference might be that we include financial firms and hence have different portfolio compositions. Then, with higher degrees of volatility, more deviations could be expected.
+    \section*{Problem (ii)}
+    In our data, the Sharpe ratio of the tangency portfolio and the market portfolio are approximately 0.36 and 0.26, respectively. Hence, our value-weighted market portfolio is not mean-variance efficient ex post. This suggests that, according to the mean variance framework, our proxy for the market portfolio does not achieve the optimal risk-adjusted return, potentially due to market frictions, data limitations, or deviations from CAPM. However, we observe from Figure [Y] that the market portfolio is not mean-variance dominated by any of the four Fama-French portfolios. In that sense, there is still no free lunch; to obtain a higher return, one must also accept a higher risk. 
+    \section*{Problem (iii) and (iv)}
+    From Figure [Z], we find that the small cap portfolios both have expected excess returns well above what would be expected from their betas alone, and hence exhibit positive alpha. On the other hand, the large cap portfolios have expected returns more in line with what would be expected from their betas, although the Low-Big portfolio appear to have somewhat of a negative alpha. These visual results are further strengthened by the regression, which shows that the Low-Small and High-Small portfolios have positive alphas and the Low-Big portfolio a negative alpha. All in all, our results suggest that there is some sort of size-related risk premium that is not accounted for by the CAPM. In addition, there is some evidence that large growth firms might be relatively overvalued versus their value firm counterparts.
+\end{document}
