@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex TAP_HW3_AB"] 1740437352.7335 "TAP_HW3_AB.aux" "TAP_HW3_AB.bbl" "TAP_HW3_AB" 1740437794.20717 0
-  "./ref.bib" 1740437319 952 2f506f8ddc3cccbcd09d5ee9283a01f2 ""
-  "TAP_HW3_AB.aux" 1740437793 3471 5be0e52e372775c5c2a7a2d965b61054 "pdflatex"
+["bibtex TAP_HW3_AB"] 1740476165.93041 "TAP_HW3_AB.aux" "TAP_HW3_AB.bbl" "TAP_HW3_AB" 1740476649.22749 0
+  "./ref.bib" 1740474587 953 158bd4e0d1c575f00cebda42879340cf ""
+  "TAP_HW3_AB.aux" 1740476648 3471 5be0e52e372775c5c2a7a2d965b61054 "pdflatex"
   "c:/texlive/2024/texmf-dist/bibtex/bst/natbib/abbrvnat.bst" 1725282324 26532 66bed5cc59495faaa3f9ae9af9fa5e42 ""
   (generated)
   "TAP_HW3_AB.bbl"
   "TAP_HW3_AB.blg"
   (rewritten before read)
-["pdflatex"] 1740437791.92063 "c:/Users/65612/OneDrive - Handelshögskolan i Stockholm/Courses/Theoretical Asset Pricing/PS3/PS3_group/Draft/TAP_HW3_AB.tex" "TAP_HW3_AB.pdf" "TAP_HW3_AB" 1740437794.20762 0
+["pdflatex"] 1740476646.84008 "c:/Users/65612/OneDrive - Handelshögskolan i Stockholm/Courses/Theoretical Asset Pricing/PS3/PS3_group/Draft/TAP_HW3_AB.tex" "TAP_HW3_AB.pdf" "TAP_HW3_AB" 1740476649.2279 0
   "../Plots/covariance_matrix.pdf" 1740427621 17127 7b229482d5cb228e7593b52e5fa76380 ""
   "../Plots/cumulative_returns.pdf" 1740427620 88244 d26281c905ae7b9922050f67bc1b5a1e ""
   "../Plots/ex_post_MVF.pdf" 1740427621 19614 595ebc68ac3cb59ebb2ff7d957ba8ae2 ""
@@ -18,11 +18,11 @@
   "../Plots/vw_returns_six_portfolios.pdf" 1740427618 50138 32041940b96798a797e418522f328eb4 ""
   "../Tables/reg_CAPM_table.tex" 1740427721 660 441e5006ad2ba4fec99cd5c7e39369fd ""
   "DG.jpg" 1740437049 397576 3461b18ad5377ed3679b0073c5ffca93 ""
-  "TAP_HW3_AB.aux" 1740437793 3471 5be0e52e372775c5c2a7a2d965b61054 "pdflatex"
-  "TAP_HW3_AB.bbl" 1740437353 1084 9be0552c9327ba15728a1270f5b89013 "bibtex TAP_HW3_AB"
-  "TAP_HW3_AB.out" 1740437793 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "TAP_HW3_AB.tex" 1740437791 12903 f3e01a4de1b3e424f707b4f4b56117d9 ""
-  "c:/Users/65612/OneDrive - Handelshögskolan i Stockholm/Courses/Theoretical Asset Pricing/PS3/PS3_group/Draft/TAP_HW3_AB.tex" 1740437791 12903 f3e01a4de1b3e424f707b4f4b56117d9 ""
+  "TAP_HW3_AB.aux" 1740476648 3471 5be0e52e372775c5c2a7a2d965b61054 "pdflatex"
+  "TAP_HW3_AB.bbl" 1740476166 1085 7648474a6ad372b8749b34b429ae5542 "bibtex TAP_HW3_AB"
+  "TAP_HW3_AB.out" 1740476648 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "TAP_HW3_AB.tex" 1740476646 13092 800b2ba2b74b61ae53a69b39092b37ad ""
+  "c:/Users/65612/OneDrive - Handelshögskolan i Stockholm/Courses/Theoretical Asset Pricing/PS3/PS3_group/Draft/TAP_HW3_AB.tex" 1740476646 13092 800b2ba2b74b61ae53a69b39092b37ad ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1725279432 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1725281551 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1725279957 3524 cb3e574dea2d1052e39280babc910dc8 ""
